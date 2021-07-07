@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+.content{
+    width: 340px;
+    height: 1720px;
+    background-color: #333;
+    margin-left: 25%;
+    margin-top: 5px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+img{
+    width: 250px;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 3%;
+    transition: box-shadow 1s;
+}
+
+img:hover{
+    box-shadow: 0px 0px 10px 10px #000;
+    transition: box-shadow 0.5s;
+}
+
+.socials{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 20%;
+    padding: 10px;
+}
+
+.socials i{
+    color: #FFF;
+    padding: 4.5px;
+}
+
+.socials li{
+    color: #FFF;
+    font-size: 15px;
+    list-style: none;
+}
+
+.skills-tecnicas{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 1.5%;
+}
+
+#title{
+    color: #FFF;
+    font-size: 22px;
+    letter-spacing: 4px;
+    margin-left: 40px;
+}
+
+#tecnologias{
+    color: #FFF;
+    margin-left: 70px;
+}
+
+.skills-blandas{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    margin-top: 55%;
+    margin-left: 1.5%;
+}
+
+#blandas{
+    color: #FFF;
+    margin-left: 70px;
+}
+
+.content2{
+    width: 700px;
+    height: 1720px;
+    background: #FFF;
+    font-family: 'Otomanopee One', sans-serif;
+    position: absolute;
+    margin-top: 1.3%;
+    margin-left: 43%;
+}
+
+.content2 h2{
+    color: #333;
+    font-size: 40px;
+    letter-spacing: 4px;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.content2 img{
+    width: 48px;
+    margin-top: 5px;
+}
+
+.content2 img:hover{
+    display: none;
+}
+
+.lenguajes #title{
+    margin-top: 390%;
+    margin-left: 20%;
+}
+
+#lenguajes{
+    color: #FFF;
+    margin-top: 15%;
+    margin-left: 30%;
+}
+
+.line{
+    width: 130px;
+    border-bottom: 3.5px solid #333;
+    margin-top: 40px;
+    margin-left: 6%;
+}
+
+.developer-software h4{
+    color: #333;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: 10px;
+}
+
+.proyectos h5{
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 4px;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 12.5%;
+}
+
+.proyecto{
+    width: 580px;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.proyecto #title-proyecto{
+    color: #333;
+    font-size: 20px;
+    margin-left: 4%;
+}
+
+.proyecto #fecha{
+    color: #333;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+    margin-left: 4%;
+}
+
+.proyecto #content{
+    color: #333;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-left: 3%;
+}
+
+.proyecto #content-tech{
+    color: #333;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5.5px;
+    margin-left: 4.5%;
+}
+
+.proyecto #link-proyecto{
+    color: #333;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 6.5px;
+    margin-left: 4.5%;
+}
+
+.proyecto #link-proyecto span{
+    font-size: 15px;
+    color: #808080;
+}
+
+.proyecto #link-proyecto a{
+    color: #333;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.proyecto #link-proyecto a:hover{
+    width: 100px;
+    color: #000;
+    background: #efb810;
+    transition: 0.5s;
+}
+
+.experiencia-laboral h5{
+    color: #333;
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin-top: 25px;
+    margin-left: 6.5%;
+}
+
+.backend{
+    width: 420px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 5.5%;
+}
+
+.backend h6{
+    color: #333;
+    font-size: 20px;
+    margin-left: 1.5%;
+}
+
+.backend p{
+    color: #333;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+    margin-left: 2%;
+}
+
+.backend li{
+    color: #000;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.educacion{
+    margin-top: 25px;
+    margin-left: 5.5%;
+}
+
+.educacion h5{
+    color: #333;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.educacion h4{
+    color: #333;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-left: 2.5%;
+}
+
+.educacion a{
+    color: #333;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.educacion a:hover{
+    width: 100px;
+    background: #efb810;
+    transition: 0.5s;
+    letter-spacing: 4px;
+}
+
+.educacion p{
+    color: #000;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+    margin-left: 3%;
+}
+
+.educacion li{
+    color: #000;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    margin-top: 5px;
+    margin-left: 4.5%;
+}
